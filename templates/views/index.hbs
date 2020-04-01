@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--what is relative and absolute path we are giving to the css-href-->
+    <!-- by the way this is the relative path of css-href -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/weather.png">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <p>use this site to get your weather!</p>
+
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+
+    </div>
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

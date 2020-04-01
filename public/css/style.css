@@ -1,0 +1,88 @@
+body {
+    background-color: blueviolet;
+    color: #eeeeee;
+    font-family: 'Baloo Thambi 2', cursive;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p{
+    text-transform: capitalize;
+    font-size: 18px;
+    border-left: 1px solid #eeeeee;
+}
+
+.fas{
+    /* color: #eeeeee; */
+    font-size:50px;
+    color: rgb(243, 243, 53);
+}
+
+#message-1{
+    color: #eeeeee;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #eeeeee;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #eeeeee;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+header a:hover{
+    color: rgb(243, 243, 53);
+}
+
+.portrait{
+    width:250px;
+}
+
+input{
+    border: 2px solid #eeeeee;
+    padding: 6px;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 16px;
+}
+
+input:hover{
+    border: 2px solid #888888;
+}
+
+button{
+    border: 2px solid #888888;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 16px;
+    background-color: #888888;
+    color: #eeeeee;
+    font-family: 'Baloo Thambi 2', cursive;
+}
